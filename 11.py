@@ -57,7 +57,7 @@ def transpose_grid_2(grid):
 # cols = [[row[i] for row in grid] for i in range(20)]
 
 # print_grid(grid)
-# print('\n')
+# print('\n')   
 # print_grid(transpose_grid(grid))
 
 
