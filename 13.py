@@ -205,8 +205,8 @@ numbers_str = """37107287533902102798797998220837590246510135740250
 53503534226472524250874054075591789781264330331690"""
 # print(fifty_digit_numbers)
 
-numbers_list = numbers_str.split('\n')
+numbers_list = numbers_str.split("\n")
 numbers_list = [str[0:13] for str in numbers_list]
 numbers_array = np.array(numbers_list)
 numbers_array = numbers_array.astype(int)
-print( str(np.sum(numbers_array) ) [0:10])
+print(str(np.sum(numbers_array))[0:10])

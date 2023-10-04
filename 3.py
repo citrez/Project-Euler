@@ -5,10 +5,9 @@
 number = 600851475143
 divisors = []
 
-for i in range(1,round(number**0.5)+1 ):
-    if number%i == 0:
+for i in range(1, round(number ** 0.5) + 1):
+    if number % i == 0:
         divisors.append(i)
-        number = number/i
+        number = number / i
 
 print(divisors)
-    
